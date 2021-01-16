@@ -16,6 +16,6 @@ ___
 
 ## Create and save scripts in Azure PowerShell: 
 
-## Exercise - Create and save scripts in Azure PowerShell 
+## Exercise - Create and save scripts in Azure PowerShell: 
 
 ## Summary: 
