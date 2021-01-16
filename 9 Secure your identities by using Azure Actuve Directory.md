@@ -1,6 +1,7 @@
 # Secure your identities by using Azure Active Directory
 
 ___
+#### AZ-104: Prerequisites for Azure administrators
 
 ## Introduction:
 
