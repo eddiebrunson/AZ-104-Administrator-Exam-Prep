@@ -1,5 +1,6 @@
 # Control Azure services with the CLI
 ___
+#### AZ-104: Prerequisites for Azure administrators
 
 ## Introduction:
 
