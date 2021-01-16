@@ -1,5 +1,6 @@
 # Automate Azure tasks using scripts with PowerShell
 ___
+#### AZ-104: Prerequisites for Azure administrators
 
 ## Introduction: 
 
