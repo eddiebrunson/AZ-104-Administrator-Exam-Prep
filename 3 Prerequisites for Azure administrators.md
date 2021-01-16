@@ -13,8 +13,7 @@ ____
 
 ##### Manage access, policies, and compliance across multiple Azure subscriptions: 
 
-
-###### Define standard resources with Azure Blueprints: 
+##### Define standard resources with Azure Blueprints: 
 
 ##### Explore your service compliance with Compliance Manager: 
 
