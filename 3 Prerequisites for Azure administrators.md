@@ -91,6 +91,20 @@ Like a policy assignment, an initiative assignment is an initiative definition a
 
 ##### Manage access, policies, and compliance across multiple Azure subscriptions: 
 
+Access management occurs at Azure subscription level. This control allows an organization to configure each division of the company in a specific fashion based on their responsibilities and requirements. Planning and keeping rules consistent across subscriptions can be challenging. 
+
+Management groups allow you to order your Azure resources hierarchically into collections, which provide a further level of classification that is above the level of subscriptions. All subscriptions within a management group automatically inherit the conditions applied to the management group. Management groups five you enterprise-grade management at a large scale no matter what type of subscriptions you might have.
+
+![Root Management group](/images/managementgroup.png)
+
+##### Important facts about management groups 
+
+* Any Azure AD user in the organization can create a management group. The creator is given an Owner role assignment. 
+* A single Azure AD organization can support 10,000 management groups. 
+* A management group tree can support up to six levels of depth not including the Root level or subscription level. 
+* Each management group can have many children. 
+* WHen your organization creates subscriptions, they are automatically added to the root management group. 
+
 ##### Define standard resources with Azure Blueprints: 
 
 ##### Explore your service compliance with Compliance Manager: 
