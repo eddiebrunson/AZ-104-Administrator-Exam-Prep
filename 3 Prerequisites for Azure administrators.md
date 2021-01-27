@@ -143,6 +143,23 @@ A policy can be included as one of many artifacts in a blueprint definition. Blu
 
 ##### Explore your service compliance with Compliance Manager: 
 
+Governing your own resources and how they are used is only part of the solution when using a cloud provider. You also have to understand how the provider manages the underlying resources you are building on. 
+
+Microsoft takes this management seriously and provides full transparency with four sources: 
+
+1. Microsoft Privacy Statement 
+2. Microsoft Trust Center
+3. Service Trust Portal
+4. Compliance Manager 
+
+--> The Microsoft privacy statement explains what personal data Microsoft processes, how Microsoft processes it, and for what purposes. 
+
+--> Trust Center is a website resource containing information and details about how Microsoft implements and supports security, privacy, compliance, and transparency in all Microsoft cloud products and services. 
+
+--> The Service Trust Portal (STP) host the Compliance Manager service, and is the Microsoft public site for publishing audit report and other compliance-related information relevant to Microsoft's cloud services. 
+
+--> Compliance Manager is a workflow-based risk assessment dashboard within the Service Trust Portal that enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services such as Microsoft 365, Dynamics 365, and Azure. 
+
 ##### Monitor your service health: 
 
 ##### Summary: 
