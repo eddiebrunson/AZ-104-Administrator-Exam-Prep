@@ -107,9 +107,88 @@ Management groups allow you to order your Azure resources hierarchically into co
 
 ##### Define standard resources with Azure Blueprints: 
 
+Adhering to security or compliance requirements, whether government or industry requirements, can be difficult and time-consuming. To help you with auditing, traceability, and compliance of your deployments, use Azure Blueprint artifacts and tools. 
+
+Just as a blueprint allows an engineer or an architect to sketch a project's design parameters, Azure Blueprints enables cloud architects and central information technology groups to define a repeatable set of Azure resources that implements and adheres to an organization's standards, patterns, and requirements. Azure Blueprints makes it possible for development teams to rapidly build and deploy new environments with the trust they're building within organizational compliance using a set of built-in components, such as networking, to speed up development delivery. 
+
+
+Azure Blueprints is a declarative way to orchestrate the deployment of various resource templates and other artifacts, such as: 
+
+* Role assignments 
+* Policy assignments 
+* Azure Resource Manager templates 
+* Resource groups 
+
+> Azure Blueprints are also useful in Azure DevOps scenarios, where blueprints are associated with specific build artifacts and release pipelines and can be tracked more rigorously. 
+
+The process of implementing Azure Blueprint consists of the following high-level steps: 
+
+1. Create an Azure Blueprint 
+2. Assign in blueprint
+3. Track the blueprint assignments 
+
+--> How is it different from Resource Manager templates?
+
+The Azure Blueprints service is designed to help with environment setup. This setup often consists of a set of resource groups, policies, role assignments, and Resource Manager template deployments. 
+
+Nearly everything that you want to include for deployment in Blueprints can be accomplished with a Resource Manager template. A Resource Manager template is a document stored inside Azure Templates Service. The template gets used for deployments of one or more Azure resources, but once those resources deploy, there's no active connection or relationships to the template. 
+
+--> How it's different from Azure Policy
+
+A policy is default-allow and explicit-deny system focused on resource properties during deployment and for already existing resources. It supports cloud governance by validating that resources within a subscription adhere to requirements and standards. 
+
+Including a policy in a blueprint enables the creation of the right pattern or design during assignment of the blueprint. The policy inclusion makes sure that only approved or expected changes can be made to the environment to protect ongoing compliance to the intent of the blueprint. 
+
+A policy can be included as one of many artifacts in a blueprint definition. Blueprints also support using parameters with polices and initiatives. 
+
 ##### Explore your service compliance with Compliance Manager: 
+
+Governing your own resources and how they are used is only part of the solution when using a cloud provider. You also have to understand how the provider manages the underlying resources you are building on. 
+
+Microsoft takes this management seriously and provides full transparency with four sources: 
+
+1. Microsoft Privacy Statement 
+2. Microsoft Trust Center
+3. Service Trust Portal
+4. Compliance Manager 
+
+--> The Microsoft privacy statement explains what personal data Microsoft processes, how Microsoft processes it, and for what purposes. 
+
+--> Trust Center is a website resource containing information and details about how Microsoft implements and supports security, privacy, compliance, and transparency in all Microsoft cloud products and services. 
+
+--> The Service Trust Portal (STP) host the Compliance Manager service, and is the Microsoft public site for publishing audit report and other compliance-related information relevant to Microsoft's cloud services. 
+
+--> Compliance Manager is a workflow-based risk assessment dashboard within the Service Trust Portal that enables you to track, assign, and verify your organization's regulatory compliance activities related to Microsoft professional services and Microsoft cloud services such as Microsoft 365, Dynamics 365, and Azure. 
 
 ##### Monitor your service health: 
 
+Defining policy and access provides fine-grained control over resources in your cloud IT infrastructure. Once those resources are deployed, you'll want to know about any issues or performance problems they might encounter. 
+
+Azure provides two primary services to monitor the health of your apps and resources:
+
+* Azure Monitor 
+* Azure Service Health
+
+
+--> Azure Monitor maximizes the availability and performance of your applications by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on. 
+
+Other tools you can use for visualizing data, for particular audiences and scenarios, include: 
+
+* Dashboards 
+* View Designer 
+* Power BI
+
+--> Azure Service Health is a suite of experience that provide personalized guidance and support when issues with Azure services affect you. It can notify you, help you understand the impact of issues, and keep you updated as the issue is resolved. Azure Service Health can also help you prepare for planned maintenance and changes that could affect the availability of your resources. 
+
 ##### Summary: 
 
+This module covered Azure governance methodologies, monitoring and reporting in Azure, and privacy, compliance, and data protection standards in Azure. 
+
+To learn more: 
+
+* [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)
+* [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
+* [Service Trust Portal](https://aka.ms/STP)
+* [Azure Service Health](https://azure.microsoft.com/features/service-health/)
+* [Azure Monitor](https://azure.microsoft.com/services/monitor/)
+* [Azure Status](https://azure.microsoft.com/status/)
