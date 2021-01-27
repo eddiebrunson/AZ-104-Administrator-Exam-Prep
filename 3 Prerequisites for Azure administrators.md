@@ -162,5 +162,33 @@ Microsoft takes this management seriously and provides full transparency with fo
 
 ##### Monitor your service health: 
 
+Defining policy and access provides fine-grained control over resources in your cloud IT infrastructure. Once those resources are deployed, you'll want to know about any issues or performance problems they might encounter. 
+
+Azure provides two primary services to monitor the health of your apps and resources:
+
+* Azure Monitor 
+* Azure Service Health
+
+
+--> Azure Monitor maximizes the availability and performance of your applications by delivering a comprehensive solution for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments. It helps you understand how your applications are performing and proactively identifies issues affecting them and the resources they depend on. 
+
+Other tools you can use for visualizing data, for particular audiences and scenarios, include: 
+
+* Dashboards 
+* View Designer 
+* Power BI
+
+--> Azure Service Health is a suite of experience that provide personalized guidance and support when issues with Azure services affect you. It can notify you, help you understand the impact of issues, and keep you updated as the issue is resolved. Azure Service Health can also help you prepare for planned maintenance and changes that could affect the availability of your resources. 
+
 ##### Summary: 
 
+This module covered Azure governance methodologies, monitoring and reporting in Azure, and privacy, compliance, and data protection standards in Azure. 
+
+To learn more: 
+
+* [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)
+* [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
+* [Service Trust Portal](https://aka.ms/STP)
+* [Azure Service Health](https://azure.microsoft.com/features/service-health/)
+* [Azure Monitor](https://azure.microsoft.com/services/monitor/)
+* [Azure Status](https://azure.microsoft.com/status/)
