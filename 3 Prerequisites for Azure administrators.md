@@ -83,6 +83,12 @@ Remove-AzPolicyAssignment -Name 'audi-vm-manageddisks' -Scope '/subscriptions/<s
 ```
 ##### Organize policy with initiatives: 
 
+Managing a few policy definitions is easy, but once you have more than a few you will want to organize them. That's where **initiatives** come in. 
+
+Initiatives work alongside policies in Azure Policy. An initiative definition is a set or group of policy definitions to help track your compliance state for a larger goal. Even if you have a single policy, it is recommended to use initiatives if you anticipate increasing the number of policies over time. 
+
+Like a policy assignment, an initiative assignment is an initiative definition assigned to a specific scope. Initiative assignments reduce the need to make several initiative definitions for each scope. This scope could also range from a management group to a resource group. 
+
 ##### Manage access, policies, and compliance across multiple Azure subscriptions: 
 
 ##### Define standard resources with Azure Blueprints: 
